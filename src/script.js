@@ -1,3 +1,11 @@
+import { fetchImages } from "./api.js";
+import {
+  renderImages,
+  clearGallery,
+  removeLastImage,
+  reverseGallery
+} from "./gallery.js";
+
 const API_URL = "https://picsum.photos/v2/list";
 
 const gallery = document.getElementById("gallery");
